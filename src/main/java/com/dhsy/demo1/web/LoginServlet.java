@@ -13,6 +13,8 @@ public class LoginServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         System.out.println("haha");
+        int i = 1;
+        int j = i + 1;
     }
 
     @Override
